@@ -4,58 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact us</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+
 </head>
 <body> 
-    <a href="index.html">home</a>
-    <a href="level_up.html">level up</a>
-    <a href="contact_us.html">contact us</a>
-    <h1>contact us</h1>
-    <hr/>
+    <Header>
+        <div id="banner">
+            <p>Notification</p>
+        </div>
+        <nav>
+             <!--anchor tag used for navigation-->
+             <a href="index.html">home</a>
+             <a href="level_up.html">level up</a>
+             <a href="contact_us.html">contact us</a>
+        
+        </nav>
+    </Header>
 
-    <h2>locations</h2>
-    <table>
-        <tr>
-            <th>location</th>
-            <th>opening hours</th>
-            <th>email address</th>
-            <th>phone number</th>
-        </tr>
-        <tr>
-            <td>kingston</td>
-            <td>9am - 6pm</td>
-            <td>levelup@prevervation.com</td>
-            <td>18765427866</td>
-        </tr>
-        <tr>
-            <td>mandeville</td>
-            <td>9am - 6pm</td>
-            <td>mandevile@prevervation.com</td>
-            <td>18765427866</td>
-        </tr>
-        <tr>
-            <td>st catherine</td>
-            <td>9am - 6pm</td>
-            <td>st.catherine@prevervation.com</td>
-            <td>18769987866</td>
-        </tr>
-    </table>
-    <h2>General inquiries</h2>
-    <form action="confirmation.html">
-        <label for="fullname">Name: *</label><br/>
-        <input required type="text" id="fullname" name="fullname"/>
-        <br/><br/>
-        <label for="email">email address: *</label><br/>
-        <input required type="email" id="email" name="emailaddress" />
-        <br/><br/>
-        <label>are you employed?</label><br/>
-        <input type="radio" value="Y" name="employed"/> yes
-        <input type="radio" value="N" name="employed"/> No
-        <br/><br/>
-        <label for="inquiry">State your inquiry *</label><br/>
-        <textarea required cols="50" rows="10" maxlength="150"></textarea>
-        <br/><br/>
+    <main>
+        <h1>contact us</h1>
+        <hr/>
+      
+        <article>
+            <h2>locations</h2>
+            <table>
+                <tr>
+                    <th>location</th>
+                    <th>opening hours</th>
+                    <th>email address</th>
+                    <th>phone number</th>
+                </tr>
+                <tr>
+                    <td>kingston</td>
+                    <td>9am - 6pm</td>
+                    <td>levelup@prevervation.com</td>
+                    <td>18765427866</td>
+                </tr>
+                <tr>
+                    <td>mandeville</td>
+                    <td>9am - 6pm</td>
+                    <td>mandevile@prevervation.com</td>
+                    <td>18765427866</td>
+                </tr>
+                <tr>
+                    <td>st catherine</td>
+                    <td>9am - 6pm</td>
+                    <td>st.catherine@prevervation.com</td>
+                    <td>18769987866</td>
+                </tr>
+            </table>
+        </article>
+       <article>
+        <h2>General inquiries</h2>
+        <form action="confirmation.html">
+            <label for="fullname">Name: *</label><br/>
+            <input required type="text" id="fullname" name="fullname"/>
+            <br/><br/>
+            <label for="email">email address: *</label><br/>
+            <input required type="email" id="email" name="emailaddress" />
+            <br/><br/>
+            <label>are you employed?</label><br/>
+            <input type="radio" value="Y" name="employed"/> yes
+            <input type="radio" value="N" name="employed"/> No
+            <br/><br/>
+            <label for="inquiry">State your inquiry *</label><br/>
+            <textarea required cols="50" rows="10" maxlength="150"></textarea>
+            <br/><br/>
+    
+            <input type="submit"/>
+        </form>
+       </article>
+        
+    </main>
+        
+    <footer>
+        <!-- webbrowser links -->
+        <a href="https://www.amazon.com">Amazon</a>
 
-        <input type="submit"/>
-    </form>
+
+
+        <a href="https://www.ebay" target="_blank">ebay</a>
+    </footer>
+
+   
 </body>
 </html>
